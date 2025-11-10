@@ -22,19 +22,4 @@ It dynamically fetches photos from the Picsum Photos API
 📸 Preview
 Gallery Page	Hover Effect
 
-	
-🧩 Project Structure
 
-react-image-gallery/
-│
-├── src/
-│   ├── components/
-│   │   └── Card.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   ├── index.css
-│   └── ...
-│
-├── package.json
-├── vite.config.js
-└── README.md
