@@ -1,12 +1,40 @@
-# React + Vite
+🖼️ React Image Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive image gallery built with React, Vite, and TailwindCSS.
+It dynamically fetches photos from the Picsum Photos API
+ using Axios and displays them with smooth pagination.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚛️ Built with React (Hooks + Functional Components)
 
-## Expanding the ESLint configuration
+🎨 Styled using TailwindCSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌐 Real-time image fetching from Picsum API
+
+🔁 Pagination controls (Next / Previous)
+
+📱 Fully responsive layout
+
+⚡ Powered by Vite for fast development and HMR
+
+
+📸 Preview
+Gallery Page	Hover Effect
+
+	
+🧩 Project Structure
+
+react-image-gallery/
+│
+├── src/
+│   ├── components/
+│   │   └── Card.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+│   └── ...
+│
+├── package.json
+├── vite.config.js
+└── README.md
